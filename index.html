@@ -1,11 +1,885 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cardo:ital,wght@0,400;0,700;1,400&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dela+Gothic+One&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bg-[#FDDECE]">
+      <header
+        class="max-w-300 m-auto flex justify-between items-center p-[20px_15px] lg:p-[20px_0]"
+      >
+        <div class="flex gap-[50px] items-center">
+          <img src="./src/Abdullo/logo.png" alt="" />
+          <nav class="flex items-center gap-[20px] hidden lg:flex">
+            <p class="text-[#424551] font-bold">About Us</p>
+            <p class="text-[#424551] font-bold">Courses</p>
+            <p class="text-[#424551] font-bold">Events</p>
+            <p class="text-[#424551] font-bold">Blog</p>
+            <p class="text-[#424551] font-bold">Contacts</p>
+          </nav>
+        </div>
+        <div class="flex gap-[20px] items-center">
+          <button
+            class="hover:bg-white hover:text-[#FB4F1F] hidden lg:flex font-bold text-white bg-[#FD472C] p-[10px_30px] rounded-[5px] text-[12px]"
+          >
+            Get consultation
+          </button>
+          <div class="flex gap-[6px] items-center">
+            <i class="fa-regular fa-user text-[#424551]"></i>
+            <p class="text-[#424551] font-bold">Log in / Register</p>
+          </div>
+        </div>
+      </header>
+    </div>
+    <main>
+      <div class="bg-[#FEDCD2]">
+        <section
+          class="max-w-300 m-auto flex flex-col gap-[100px] p-[50px_15px] lg:p-[80px_0]"
+        >
+          <div
+            class="flex flex-col gap-[30px] lg:flex-row lg:justify-between lg:items-center"
+          >
+            <aside class="flex flex-col items-start gap-[25px]">
+              <div class="flex gap-[5px] items-center">
+                <img src="./src/Abdullo/hover.png" alt="" />
+                <p class="font-bold text-[14px] text-[#1E212C]">
+                  Play showreel
+                </p>
+              </div>
+              <h1 class="font-black lg:text-[64px] text-[25px]">
+                Enjoy studying with Createx Online Courses
+              </h1>
+              <div class="flex gap-[10px] items-start">
+                <button
+                  class="hover:bg-white hover:text-[#FB4F1F] text-[#FB4F1F] font-bold text-[14px] border-[1px] border-[#FB4F1F] p-[10px_25px] rounded-[5px]"
+                >
+                  About us
+                </button>
+                <button
+                  class="hover:bg-white hover:text-[#FB4F1F] font-bold text-white bg-[#FD472C] p-[10px_30px] rounded-[5px] text-[14px]"
+                >
+                  Explore courses
+                </button>
+              </div>
+            </aside>
+            <img src="./src/Abdullo/illustration.png" alt="" />
+          </div>
+          <div
+            class="flex flex-col gap-[20px] lg:flex-row lg:justify-between items-center"
+          >
+            <div class="flex items-center gap-[10px]">
+              <h1 class="font-black text-[46px] text-[#1E212C]">1200</h1>
+              <p class="text-[#1E212C]">Students graduated</p>
+            </div>
+            <p class="hidden lg:flex">
+              <i
+                class="fa-solid fa-circle"
+                style="color: #ff3f3a; font-size: 6px"
+              ></i>
+            </p>
+            <div class="flex items-center gap-[10px]">
+              <h1 class="font-black text-[46px] text-[#1E212C]">84</h1>
+              <p class="text-[#1E212C]">Completed courses</p>
+            </div>
+            <p class="hidden lg:flex">
+              <i
+                class="fa-solid fa-circle"
+                style="color: #ff3f3a; font-size: 6px"
+              ></i>
+            </p>
+            <div class="flex items-center gap-[10px]">
+              <h1 class="font-black text-[46px] text-[#1E212C]">16</h1>
+              <p class="text-[#1E212C]">Qualified tutors</p>
+            </div>
+            <p class="hidden lg:flex">
+              <i
+                class="fa-solid fa-circle"
+                style="color: #ff3f3a; font-size: 6px"
+              ></i>
+            </p>
+            <div class="flex items-center gap-[10px]">
+              <h1 class="font-black text-[46px] text-[#1E212C]">5</h1>
+              <p class="text-[#1E212C]">Years of experience</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section
+        class="max-w-300 m-auto flex flex-col-reverse p-[20px] gap-[30px] lg:flex-row lg:justify-between lg:items-center p-[50px_15px] lg:p-[100px_0] lg:gap-[50px]"
+      >
+        <img src="./src/Abdullo/image.png" alt="" />
+
+        <aside class="flex flex-col gap-[30px] items-start">
+          <div class="flex flex-col gap-[10px]">
+            <h1 class="text-[#1E212C] font-bold">Who we are</h1>
+            <h1 class="text-[#1E212C] font-bold text-[46px]">Why Createx?</h1>
+          </div>
+          <nav class="flex flex-col gap-[20px]">
+            <div class="flex gap-[10px] items-baseline">
+              <i class="fa-regular fa-circle-check text-[#ff3f3a]"></i>
+              <p class="text-[#424551]">
+                A fermentum in morbi pretium aliquam adipiscing donec tempus.
+              </p>
+            </div>
+            <div class="flex gap-[10px] items-baseline">
+              <i class="fa-regular fa-circle-check text-[#ff3f3a]"></i>
+              <p class="text-[#424551]">
+                Vulputate placerat amet pulvinar lorem nisl.
+              </p>
+            </div>
+            <div class="flex gap-[10px] items-baseline">
+              <i class="fa-regular fa-circle-check text-[#ff3f3a]"></i>
+              <p class="text-[#424551]">
+                Consequat feugiat habitant gravida quisque elit bibendum id
+                adipiscing sed.
+              </p>
+            </div>
+            <div class="flex gap-[10px] items-baseline">
+              <i class="fa-regular fa-circle-check text-[#ff3f3a]"></i>
+              <p class="text-[#424551]">
+                Etiam duis lobortis in fames ultrices commodo nibh.
+              </p>
+            </div>
+            <div class="flex gap-[10px] items-baseline">
+              <i class="fa-regular fa-circle-check text-[#ff3f3a]"></i>
+              <p class="text-[#424551]">
+                Tincidunt sagittis neque sem ac eget.
+              </p>
+            </div>
+            <div class="flex gap-[10px] items-baseline">
+              <i class="fa-regular fa-circle-check text-[#ff3f3a]"></i>
+              <p class="text-[#424551]">
+                Ultricies amet justo et eget quisque purus vulputate dapibus
+                tortor.
+              </p>
+            </div>
+          </nav>
+          <button
+            class="hover:bg-white hover:text-[#FB4F1F] font-bold text-white bg-[#FD472C] p-[10px_25px] rounded-[5px] text-[14px]"
+          >
+            More about us
+          </button>
+        </aside>
+      </section>
+
+      <section
+        class="max-w-300 m-auto flex flex-col gap-[20px] p-[100px_25px] lg:p-[50px_0]"
+      >
+        <div class="flex justify-between items-center">
+          <nav class="flex flex-col">
+            <h1 class="font-bold">Ready to learn?</h1>
+            <h1 class="text-[#1E212C] font-bold lg:text-[46px] text-[20px]">
+              Featured Courses
+            </h1>
+          </nav>
+          <button
+            class="hover:text-white hover:bg-[#FB4F1F] text-[#FB4F1F] font-bold text-[14px] border-[1px] border-[#FB4F1F] p-[8px_25px] rounded-[5px]"
+          >
+            View all courses
+          </button>
+        </div>
+        <div class="flex flex-col gap-[30px]">
+          <div class="flex flex-col gap-[20px] lg:flex-row lg:justify-between">
+            <div class="flex flex-col lg:flex-row shadow-2xl">
+              <img src="src/Abdullo/first.png" alt="" />
+              <aside
+                class="flex flex-col gap-[20px] items-start lg:border-[1px] lg:border-[lightgray] lg:border-l-0 rounded-tr-[5px] rounded-br-[5px] p-[30px] w-[360px]"
+              >
+                <p
+                  class="text-[14px] text-[white] bg-[#03CEA4] p-[2px_10px] rounded-[5px]"
+                >
+                  Marketing
+                </p>
+                <h1 class="text-[20px] text-[#1E212C] font-bold">
+                  The Ultimate Google Ads Training <br />
+                  Course
+                </h1>
+                <nav class="flex gap-[10px] items-center">
+                  <h1
+                    class="border-r-[1px] pr-[10px] border-[gray] text-[18px] font-bold text-[#FF4242]"
+                  >
+                    100$
+                  </h1>
+                  <h1 class="text-[18px] font-bold text-[#787A80]">
+                    by Jerome Bell
+                  </h1>
+                </nav>
+              </aside>
+            </div>
+            <div class="flex flex-col lg:flex-row shadow-2xl">
+              <img src="src/Abdullo/second.png" alt="" />
+              <aside
+                class="flex flex-col gap-[20px] items-start lg:border-[1px] lg:border-[lightgray] lg:border-l-0 rounded-tr-[5px] rounded-br-[5px] p-[30px] pr-[10px] w-[360px]"
+              >
+                <p
+                  class="text-[14px] text-[white] bg-[#5A87FC] p-[2px_10px] rounded-[5px]"
+                >
+                  Management
+                </p>
+                <h1 class="text-[20px] text-[#1E212C] font-bold">
+                  Prduct Management Fundamentals
+                </h1>
+                <nav class="flex gap-[10px] items-center">
+                  <h1
+                    class="border-r-[1px] pr-[10px] border-[gray] text-[18px] font-bold text-[#FF4242]"
+                  >
+                    $480
+                  </h1>
+                  <h1 class="text-[18px] font-bold text-[#787A80]">
+                    by Kristin Watson
+                  </h1>
+                </nav>
+              </aside>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-[20px] lg:flex-row lg:justify-between">
+            <div class="lg:flex flex-col lg:flex-row hidden">
+              <img src="src/Abdullo/third.png" alt="" />
+              <aside
+                class="flex flex-col gap-[20px] items-start lg:border-[1px] lg:border-[lightgray] lg:border-l-0 rounded-tr-[5px] rounded-br-[5px] p-[30px] w-[360px]"
+              >
+                <p
+                  class="text-[14px] text-[white] bg-[#F3992F] p-[2px_10px] rounded-[5px]"
+                >
+                  HR & Recruting
+                </p>
+                <h1 class="text-[20px] text-[#1E212C] font-bold">
+                  HR Management and Analytics
+                </h1>
+                <nav class="flex gap-[10px] items-center">
+                  <h1
+                    class="border-r-[1px] pr-[10px] border-[gray] text-[18px] font-bold text-[#FF4242]"
+                  >
+                    200$
+                  </h1>
+                  <h1 class="text-[18px] font-bold text-[#787A80]">
+                    by Leslie Alexander Li
+                  </h1>
+                </nav>
+              </aside>
+            </div>
+            <div class="lg:flex flex-col lg:flex-row hidden">
+              <img src="src/Abdullo/fourth.png" alt="" />
+              <aside
+                class="flex flex-col gap-[20px] items-start lg:border-[1px] lg:border-[lightgray] lg:border-l-0 rounded-tr-[5px] rounded-br-[5px] p-[30px] w-[360px]"
+              >
+                <p
+                  class="text-[14px] text-[white] bg-[#03CEA4] p-[2px_10px] rounded-[5px]"
+                >
+                  Marketing
+                </p>
+                <h1 class="text-[20px] text-[#1E212C] font-bold">
+                  Brand Management & PR <br />
+                  Communications
+                </h1>
+                <nav class="flex gap-[10px] items-center">
+                  <h1
+                    class="border-r-[1px] pr-[10px] border-[gray] text-[18px] font-bold text-[#FF4242]"
+                  >
+                    $530
+                  </h1>
+                  <h1 class="text-[18px] font-bold text-[#787A80]">
+                    by Marvin McKinney
+                  </h1>
+                </nav>
+              </aside>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-[20px] lg:flex-row lg:justify-between">
+            <div class="lg:flex flex-col lg:flex-row hidden">
+              <img src="src/Abdullo/fifth.png" alt="" />
+              <aside
+                class="flex flex-col gap-[20px] items-start lg:border-[1px] lg:border-[lightgray] lg:border-l-0 rounded-tr-[5px] rounded-br-[5px] p-[30px] w-[360px]"
+              >
+                <p
+                  class="text-[14px] text-[white] bg-[#5A87FC] p-[2px_10px] rounded-[5px]"
+                >
+                  Management
+                </p>
+                <h1 class="text-[20px] text-[#1E212C] font-bold">
+                  Business Development Management
+                </h1>
+                <nav class="flex gap-[10px] items-center">
+                  <h1
+                    class="border-r-[1px] pr-[10px] border-[gray] text-[18px] font-bold text-[#FF4242]"
+                  >
+                    400$
+                  </h1>
+                  <h1 class="text-[18px] font-bold text-[#787A80]">
+                    by Dianne Russell
+                  </h1>
+                </nav>
+              </aside>
+            </div>
+            <div class="lg:flex flex-col lg:flex-row hidden">
+              <img src="src/Abdullo/sixth.png" alt="" />
+              <aside
+                class="flex flex-col gap-[20px] items-start lg:border-[1px] lg:border-[lightgray] lg:border-l-0 rounded-tr-[5px] rounded-br-[5px] p-[30px] w-[360px]"
+              >
+                <p
+                  class="text-[14px] text-[white] bg-[#F03370] p-[2px_10px] rounded-[5px]"
+                >
+                  Design
+                </p>
+                <h1 class="text-[20px] text-[#1E212C] font-bold">
+                  Graphic Design Basic
+                </h1>
+                <nav class="flex gap-[10px] items-center">
+                  <h1
+                    class="border-r-[1px] pr-[10px] border-[gray] text-[18px] font-bold text-[#FF4242]"
+                  >
+                    $500
+                  </h1>
+                  <h1 class="text-[18px] font-bold text-[#787A80]">
+                    by Guy Hawkins
+                  </h1>
+                </nav>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="max-w-300 m-auto flex flex-col gap-[50px] lg:p-[100px_0] p-[50px_15px]"
+      >
+        <div class="flex flex-col items-center">
+          <h1 class="font-bold tracking-widest">OUR BENEFITS</h1>
+          <h1 class="text-[#1E212C] font-bold lg:text-[46px] text-[32px]">
+            That’s how we do it
+          </h1>
+        </div>
+        <div
+          class="flex flex-col gap-[20px] items-center lg:flex-row lg:justify-between"
+        >
+          <button
+            class="flex items-center gap-[10px] text-[#FF3F3A] border-[1px] border-[#FF3F3A] font-bold text-[14px] p-[8px_50px] rounded-[5px] hover:text-white hover:bg-[#FB4F1F] !hover:text-white"
+          >
+            <i class="fa-regular fa-star text-[#ff3f3a] hover:text-white"></i>
+            Experienced Tutors
+          </button>
+          <div class="flex items-center gap-[10px]">
+            <i class="fa-regular fa-thumbs-up text-[#9a9ca5]"></i>
+            <p class="font-bold text-[#9A9CA5]">Feedback & Support</p>
+          </div>
+          <div class="flex items-center gap-[10px]">
+            <i class="fa-solid fa-layer-group text-[#9a9ca5]"></i>
+            <p class="font-bold text-[#9A9CA5]">24/7 Online Library</p>
+          </div>
+          <div class="flex items-center gap-[10px]">
+            <i class="fa-regular fa-comments text-[#9a9ca5]"></i>
+            <p class="font-bold text-[#9A9CA5]">Community</p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-[30px] lg:flex-row lg:justify-between lg:items-center"
+        >
+          <aside class="flex flex-col gap-[25px]">
+            <h1 class="text-[32px] text-[#1E212C] font-black">
+              Only practicing tutors
+            </h1>
+            <p class="text-[#424551] lg:w-[500px]">
+              Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames
+              dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis
+              mollis augue. Nunc, sodales tortor sit diam mi amet massa.
+              Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id
+              dignissim massa ut amet. Amet enim, nisi tempus vehicula.
+            </p>
+          </aside>
+          <img src="src/Abdullo/illustration2.png" alt="" />
+        </div>
+      </section>
+      <div class="bg-[#FFDBD4]">
+        <section
+          class="max-w-300 m-auto flex flex-col gap-[50px] p-[50px_15px] lg:p-[50px_0]"
+        >
+          <div class="flex flex-col items-center">
+            <h1 class="font-bold">Our events</h1>
+            <h1 class="text-[#1E212C] font-bold lg:text-[46px] text-[20px]">
+              Lectures & workshops
+            </h1>
+          </div>
+          <nav class="flex flex-col gap-[20px]">
+            <div
+              class="hidden lg:flex flex-col gap-[20px] lg:flex-row lg:justify-between items-center bg-white p-[20px] rounded-[5px]"
+            >
+              <nav class="flex gap-[10px] items-center">
+                <h1 class="font-black text-[48px] text-[#FF3F3A]">05</h1>
+                <article class="flex flex-col items-start">
+                  <p class="font-bold text-[20px] text-[#1E212C]">August</p>
+                  <p class="text-[#787A80]">11:00 – 14:00</p>
+                </article>
+              </nav>
+
+              <nav class="flex flex-col">
+                <p class="font-bold text-[20px] text-[#1E212C]">
+                  Formation of the organizational structure of the company in
+                  the face of uncertainty.
+                </p>
+                <p class="text-[#787A80]">Onine master-class</p>
+              </nav>
+              <button
+                class="text-[#FB4D23] border-[1px] border-[#FB4D23] font-bold text-[14px] p-[10px_25px] rounded-[5px]"
+              >
+                View more
+              </button>
+            </div>
+
+            <div
+              class="flex flex-col gap-[20px] lg:flex-row lg:justify-between items-center bg-white p-[20px] rounded-[5px] shadow-2xl"
+            >
+              <div class="flex flex-col lg:flex-row items-center gap-[45px]">
+                <nav class="flex gap-[10px] items-center">
+                  <h1 class="font-black text-[48px] text-[#FF3F3A]">24</h1>
+                  <article class="flex flex-col items-start">
+                    <p class="font-bold text-[20px] text-[#1E212C]">July</p>
+                    <p class="text-[#787A80]">11:00 – 12:30</p>
+                  </article>
+                </nav>
+
+                <nav class="flex flex-col">
+                  <p class="font-bold text-[20px] text-[#1E212C]">
+                    Building a customer service department. Best Practices.
+                  </p>
+                  <p class="text-[#787A80]">Onine lecture</p>
+                </nav>
+              </div>
+              <button
+                class="text-[white] bg-[#FC4A27] font-bold text-[14px] p-[10px_25px] rounded-[5px]"
+              >
+                View more
+              </button>
+            </div>
+
+            <div
+              class="hidden lg:flex flex-col gap-[20px] lg:flex-row lg:justify-between items-center bg-white p-[20px] rounded-[5px]"
+            >
+              <nav class="flex gap-[10px] items-center">
+                <h1 class="font-black text-[48px] text-[#FF3F3A]">16</h1>
+                <article class="flex flex-col items-start">
+                  <p class="font-bold text-[20px] text-[#1E212C]">July</p>
+                  <p class="text-[#787A80]">10:00 – 13:00</p>
+                </article>
+              </nav>
+
+              <nav class="flex flex-col">
+                <p class="font-bold text-[20px] text-[#1E212C]">
+                  How to apply methods of speculative design in practice.
+                  Worldbuilding prototyping.
+                </p>
+                <p class="text-[#787A80]">Onine workshop</p>
+              </nav>
+              <button
+                class="text-[#FB4D23] border-[1px] border-[#FB4D23] font-bold text-[14px] p-[10px_25px] rounded-[5px]"
+              >
+                View more
+              </button>
+            </div>
+          </nav>
+          <div
+            class="flex flex-col lg:flex-row gap-[20px] items-center lg:justify-center"
+          >
+            <h1 class="text-[#1E212C] text-[28px] font-bold">
+              Do you want more?
+            </h1>
+            <button
+              class="hover:bg-white hover:text-[#FB4F1F] font-bold text-white bg-[#FD472C] p-[10px_30px] rounded-[5px] text-[12px] hover:bg-amber-800 hover:scale-[1.1]"
+            >
+              Explore all events
+            </button>
+          </div>
+        </section>
+      </div>
+
+      <section
+        class="max-w-300 m-auto flex flex-col gap-[50px] lg:flex-row lg:justify-between p-[50px_20px] lg:p-[50px_0] lg:pb-0 lg:items-center"
+      >
+        <aside class="flex flex-col gap-[50px]">
+          <nav class="flex flex-col">
+            <h1 class="font-bold">Createx Certificate</h1>
+            <h1 class="text-[#1E212C] font-bold lg:text-[46px] text-[20px]">
+              Your expertise will be confirmed
+            </h1>
+          </nav>
+          <div class="flex flex-col gap-[30px]">
+            <p class="text-[#424551]">
+              We are accredited by international professional organizations and
+              institutes:
+            </p>
+            <div class="flex flex-col lg:flex-row gap-[20px] items-center">
+              <img src="src/Abdullo/logo1.png" alt="" />
+              <img src="src/Abdullo/logo2.png" alt="" />
+              <img src="src/Abdullo/logo3.png" alt="" />
+            </div>
+          </div>
+        </aside>
+        <img
+          class="lg:relative lg:top-[150px]"
+          src="src/Abdullo/cetificate.png"
+          alt=""
+        />
+      </section>
+
+      <div class="bg-[#F4F5F6] lg:p-[50px_0] lg:pt-[150px] p-[50px_15px]">
+        <section class="max-w-300 m-auto flex flex-col gap-[50px]">
+          <div class="flex justify-between items-center">
+            <nav class="flex flex-col">
+              <h1 class="font-bold">Best tutors are all here</h1>
+              <h1 class="text-[#1E212C] font-bold lg:text-[46px] text-[20px]">
+                Meet our team
+              </h1>
+            </nav>
+            <div class="flex gap-[10px] items-center">
+              <i class="fa-solid fa-arrow-left-long" style="color: #424551"></i>
+              <nav class="bg-[#FF3F3A] p-[10px_12px] rounded-full">
+                <i
+                  class="fa-solid fa-arrow-right-long"
+                  style="color: white"
+                ></i>
+              </nav>
+            </div>
+          </div>
+          <div
+            class="flex gap-[20px] justify-between flex-col lg:flex-row text-center items-center"
+          >
+            <div
+              class="flex flex-col items-center gap-[20px] lg:min-w-0 min-w-[300px] ml-[30px] lg:ml-0"
+            >
+              <div class="bg-[#FFCF2D] p-[20px] pb-0 rounded-[5px]">
+                <img src="src/Abdullo/woman1.png" alt="" />
+              </div>
+              <nav class="flex flex-col">
+                <h1 class="text-[20px] font-bold text-[#424551]">
+                  Dianne Russell
+                </h1>
+                <p class="text-[#787A80]">Founder and CEO</p>
+              </nav>
+            </div>
+            <div
+              class="flex flex-col items-center lg:min-w-0 gap-[20px] min-w-[300px]"
+            >
+              <div class="bg-[#FFCF2D] p-[20px] pb-0 rounded-[5px]">
+                <img src="src/Abdullo/man1.png" alt="" />
+              </div>
+              <nav class="flex flex-col">
+                <h1 class="text-[20px] font-bold text-[#424551] text-center">
+                  Jerome Bell
+                </h1>
+                <p class="text-[#787A80]">Founder and Program Director</p>
+              </nav>
+            </div>
+            <div
+              class="flex flex-col items-center lg:min-w-0 gap-[20px] min-w-[300px]"
+            >
+              <div class="bg-[#FFCF2D] p-[20px] pb-0 rounded-[5px]">
+                <img src="src/Abdullo/woman2.png" alt="" />
+              </div>
+              <nav class="flex flex-col">
+                <h1 class="text-[20px] font-bold text-[#424551] text-center">
+                  Kristin Watson
+                </h1>
+                <p class="text-[#787A80]">
+                  Marketer, Curator of Marketing Course
+                </p>
+              </nav>
+            </div>
+            <div
+              class="flex lg:min-w-0 flex-col items-center gap-[20px] min-w-[300px] mr-[30px] lg:mr-0"
+            >
+              <div class="bg-[#FFCF2D] p-[20px] pb-0 rounded-[5px]">
+                <img src="src/Abdullo/man2.png" alt="" />
+              </div>
+              <nav class="flex flex-col">
+                <h1 class="text-[20px] font-bold text-[#424551] text-center">
+                  Marvin McKinney
+                </h1>
+                <p class="text-[#787A80]">PM, Curator of Management Course</p>
+              </nav>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section
+        class="max-w-300 m-auto flex flex-col gap-[50px] p-[50px_15px] lg:p-[100px_0]"
+      >
+        <div class="flex justify-between items-center">
+          <div class="flex flex-col">
+            <h1 class="font-bold">Our blog</h1>
+            <h1 class="text-[#1E212C] font-bold lg:text-[46px] text-[20px]">
+              Latest posts
+            </h1>
+          </div>
+          <button
+            class="text-white font-bold text-[12px] bg-[#FE4332] p-[10px_30px] rounded-[5px]"
+          >
+            Go to blog
+          </button>
+        </div>
+        <div class="flex flex-col gap-[30px] lg:flex-row lg:justify-between">
+          <nav class="flex flex-col gap-[10px]">
+            <div class="relative flex">
+              <img src="src/Abdullo/sec91.png" alt="" />
+              <p
+                class="flex items-center gap-[5px] bg-[white] p-[2px_10px] text-[14px] text-[#424551] absolute top-[15px] left-[15px] rounded-[5px]"
+              >
+                <i class="fa-solid fa-microphone" style="color: #424551"></i>
+                Podcast
+              </p>
+            </div>
+            <div class="flex gap-[10px]">
+              <p
+                class="text-[14px] font-bold border-r-[2px] border-[#787A80] text-[#787A80] pr-[10px]"
+              >
+                Marketing
+              </p>
+              <p
+                class="text-[14px] text-[#787A80] flex items-center gap-[5px] border-r-[2px] border-[#787A80] pr-[10px]"
+              >
+                <i class="fa-regular fa-calendar" style="color: #787a80"></i>
+                September 4, 2020
+              </p>
+              <p class="text-[14px] text-[#787A80] flex items-center gap-[5px]">
+                <i class="fa-regular fa-clock" style="color: #787a80"></i> 36
+                min
+              </p>
+            </div>
+            <h1 class="font-bold text-[20px] text-[#1E212C] lg:w-[390px]">
+              What is traffic arbitrage and does it really make money?
+            </h1>
+            <p class="text-[#787A80] lg:w-[390px]">
+              Pharetra, ullamcorper iaculis viverra parturient sed id sed.
+              Convallis proin dignissim lacus, purus gravida...
+            </p>
+            <h1
+              class="font-bold text-[#1E212C] flex items-center gap-[10px] pt-[20px]"
+            >
+              Listen
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </h1>
+          </nav>
+          <nav class="flex flex-col gap-[10px]">
+            <div class="relative flex">
+              <img src="src/Abdullo/sec92.png" alt="" />
+              <p
+                class="flex items-center gap-[5px] bg-[white] p-[2px_10px] text-[14px] text-[#424551] absolute top-[15px] left-[15px] rounded-[5px]"
+              >
+                <i class="fa-regular fa-circle-play text-[#424551]"></i>
+                Video
+              </p>
+            </div>
+            <div class="flex gap-[10px]">
+              <p
+                class="text-[14px] font-bold border-r-[2px] border-[#787A80] text-[#787A80] pr-[10px]"
+              >
+                Management
+              </p>
+              <p
+                class="text-[14px] text-[#787A80] flex items-center gap-[5px] border-r-[2px] border-[#787A80] pr-[10px]"
+              >
+                <i class="fa-regular fa-calendar" style="color: #787a80"></i>
+                August 25, 2020
+              </p>
+              <p class="text-[14px] text-[#787A80] flex items-center gap-[5px]">
+                <i
+                  class="fa-regular fa-clock text-[#FA5317]"
+                  style="color: #787a80"
+                ></i>
+                45 min
+              </p>
+            </div>
+            <h1 class="font-bold text-[20px] text-[#1E212C] lg:w-[390px]">
+              What to do and who to talk to if you want to get feedback on the
+              product
+            </h1>
+            <p class="text-[#787A80] lg:w-[390px]">
+              Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac
+              nibh urna urna sagittis faucibus...
+            </p>
+            <h1
+              class="font-bold text-[#1E212C] flex items-center gap-[10px] pt-[20px]"
+            >
+              Watch
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </h1>
+          </nav>
+          <nav class="flex flex-col gap-[10px]">
+            <div class="relative flex">
+              <img src="src/Abdullo/sec93.png" alt="" />
+              <p
+                class="flex items-center gap-[5px] bg-[white] p-[2px_10px] text-[14px] text-[#424551] absolute top-[15px] left-[15px] rounded-[5px]"
+              >
+                <i class="fa-regular fa-file-lines text-[#FA5317]"></i>
+                Article
+              </p>
+            </div>
+            <div class="flex items-center gap-[10px]">
+              <p
+                class="text-[14px] font-bold border-r-[2px] border-[#787A80] text-[#787A80] pr-[10px]"
+              >
+                Design
+              </p>
+              <p
+                class="text-[14px] text-[#787A80] flex items-center gap-[5px] border-r-[2px] border-[#787A80] pr-[10px]"
+              >
+                <i class="fa-regular fa-calendar" style="color: #787a80"></i>
+                August 8, 2020
+              </p>
+            </div>
+            <h1 class="font-bold text-[20px] text-[#1E212C] lg:w-[390px]">
+              Should you choose a creative profession if you are attracted to
+              creativity?
+            </h1>
+            <p class="text-[#787A80] lg:w-[390px]">
+              Curabitur nisl tincidunt eros venenatis vestibulum ac placerat.
+              Tortor, viverra sed vulputate ultrices...
+            </p>
+            <h1
+              class="font-bold text-[#1E212C] flex items-center gap-[10px] pt-[20px]"
+            >
+              Read
+              <i class="text-[#ff3f3a] fa-solid fa-arrow-right-long"></i>
+            </h1>
+          </nav>
+        </div>
+      </section>
+      <div class="bg-[#FEDCD3] relative">
+        <img
+          class="hidden lg:flex absolute bottom-0"
+          src="./src/Abdullo/illustration3.png"
+          alt=""
+        />
+
+        <section
+          class="max-w-300 m-auto flex flex-col gap-[50px] p-[50px_15px] lg:p-[100px_0]"
+        >
+          <div class="flex flex-col items-center gap-[15px]">
+            <h1 class="font-bold tracking-widest">DON'T MISS ANYTHING</h1>
+            <h1
+              class="text-[#1E212C] font-bold lg:text-[46px] text-[32px] text-center"
+            >
+              Subscribe to the Createx School <br />
+              announcements
+            </h1>
+          </div>
+          <div class="flex gap-[20px] justify-center">
+            <input
+              type="email"
+              class="bg-white lg:w-[400px] outline-none py-[10px] rounded-[5px] pl-[15px]"
+              placeholder="Your working email"
+            />
+            <button
+              class="text-white font-bold text-[12px] bg-[#FE4332] p-[10px_45px] rounded-[5px]"
+            >
+              Subscribe
+            </button>
+          </div>
+        </section>
+        <img
+          class="hidden lg:flex absolute bottom-0 right-0"
+          src="./src/Abdullo/illustration3.png"
+          alt=""
+        />
+      </div>
+      <div class="bg-[#1E212C] p-[50px_25px] lg:p-[100px_0]">
+        <section
+          class="max-w-300 m-auto flex flex-col  gap-[30px] lg:flex-row lg:justify-between text-[#A5A6AB]"
+        >
+          <nav class="flex flex-col gap-[35px] items-start">
+            <img src="src/Abdullo/logofooter.png" alt="" />
+            <p class="text-[12px] w-[279px]">
+              Createx Online School is a leader in online studying. We have lots
+              of courses and programs from the main market experts. We provide
+              relevant approaches to online learning, internships and employment
+              in the largest companies in the country.
+            </p>
+            <img src="src/Abdullo/socials.png" alt="">
+          </nav>
+          <nav class="flex flex-col gap-[20px]">
+            <h1 class="font-bold text-[white]">SITE MAP</h1>
+            <article class="flex flex-col gap-[10px]">
+              <p>About Us</p>
+              <p>Courses</p>
+              <p>Events</p>
+              <p>Blog</p>
+              <p>Contacts</p>
+            </article>
+          </nav>
+          <nav class="flex flex-col gap-[20px]">
+            <h1 class="font-bold text-[white]">COURSES</h1>
+            <article class="flex flex-col gap-[10px]">
+              <p>Marketing</p>
+              <p>Management</p>
+              <p>HR & Recruting</p>
+              <p>Design</p>
+              <p>Development</p>
+            </article>
+          </nav>
+          <nav class="flex flex-col gap-[20px]">
+            <h1 class="font-bold text-[white]">CONTACT US</h1>
+            <article class="flex flex-col gap-[10px]">
+              <p class="flex items-center gap-[10px]">
+                <i
+                  class="fa-solid fa-mobile-screen-button"
+                  style="color: #a5a6ab"
+                ></i>
+                (405) 555-0128
+              </p>
+              <p class="flex items-center gap-[10px]">
+                <i class="fa-regular fa-envelope" style="color: #a5a6ab"></i>
+                hello@createx.com
+              </p>
+            </article>
+          </nav>
+          <nav class="flex flex-col gap-[20px]">
+            <h1 class="font-bold text-[white]">SIGN UP TO OUR NEWSLETTER</h1>
+            <div class="flex flex-col gap-[15px]">
+              <input
+                class="bg-[#393C46] outline-none py-[7px] rounded-[5px] border-[1px] border-[#61636B] pl-[10px]"
+                type="email"
+                placeholder="Email address"
+              />
+              <p class="text-[#A5A6AB] text-[12px]">
+                *Subscribe to our newsletter to receive communications and early
+                <br />
+                updates from Createx SEO Agency.
+              </p>
+            </div>
+          </nav>
+        </section>
+      </div>
+    </main>
+  </body>
+  <div class="bg-[#292C37]">
+    <footer
+      class="max-w-300 m-auto flex flex-col-reverse lg:flex-row gap-[15px] justify-between p-[20px_15px] text-center  lg:p-[20px_0] items-center"
+    >
+      <p class="text-white text-[14px] lg:ml-0 ml-[18px] text-center lg:text-start">
+        © All rights reserved.Made with
+        <i class="fa-regular fa-heart" style="color: #ff3f3a"></i> by Createx
+        Studio
+      </p>
+      <p class="font-bold text-[14px] text-[#A5A6AB] inline">
+        GO TO TOP
+      </p>
+    </footer>
+  </div>
 </html>
